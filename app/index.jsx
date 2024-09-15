@@ -11,7 +11,7 @@ export default function index() {
           "Bearer test_sk_TuH24SnWwK55cLtM17z8B0qNOzbkYuySS1pPpP8l",
         "Content-Type": "application/json",
       },
-      body: '{"amount":2000,"currency":"dzd","success_url":"https://your-cool-website.com/payments/success"}',
+      body: '{"amount":2000,"currency":"dzd","success_url":"https://chargilyPay://success"}',
     };
 
     fetch("https://pay.chargily.net/test/api/v2/checkouts", options)
